@@ -11,7 +11,7 @@ const AddPostForm = () => {
   const onContentChanged = (e) => setContent(e.target.value);
   const onSaveClicked = () => {
     if (title && content) {
-      dispatchEvent(postAdded({ id: nanoid(), title, content }));
+      dispatchEvent(postAdded(title, content));
     }
     setTitle("");
     setContent("");
