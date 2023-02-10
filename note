@@ -1,0 +1,5 @@
+Store:
+Redux store is a container for javascript app and it store the whole state of the app in an immutable object tree. Redux store is generally one.
+
+Slice:
+Slice is a collection of reducer logic and actions for a feature in an app.
