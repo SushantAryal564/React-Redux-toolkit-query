@@ -1,3 +1,4 @@
 1. Have a single store for an application multiple store is possible but
    recommended.
-2. 
+2. React Redux Toolkit Query Tutorial and RTK Query CRUD    
+   
